@@ -41,3 +41,35 @@ const myFunction = function(){
 console.log(typeof personal_data )
 console.log(typeof myObj )
 console.log(typeof myFunction )
+
+
+//----------------------------------------------------------------
+
+console.log("------------------------------------")
+
+
+// two types of memory 
+
+// 1. stack (primitive)(in this we get copy value )    2. heap (non primitive)(in this we get original value)
+
+ let myName = "vandita"
+
+ let myAnotherName = myName
+
+ myAnotherName ="misty"
+
+ console.log(myName)
+ console.log(myAnotherName)
+
+ let userOne = {
+    name : "vandita",
+    email : "vandita@gmail.com"
+
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "misty@gmail.com"
+
+ console.log(userOne.email)
+ console.log(userTwo.email)
