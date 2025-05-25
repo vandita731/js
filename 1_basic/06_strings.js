@@ -4,7 +4,7 @@ console.log(name+repocount+" value");
 
 console.log(`hello my name is ${name} and my repo count is ${repocount}`)
 
-const gameName= new String("misty-jain")
+const gameName= new String("misty-jain-com")
 
 console.log(gameName[1])
 console.log(gameName.__proto__)
@@ -26,3 +26,12 @@ const newStringOne = "      vandita     "
 
 console.log(newStringOne)
 console.log(newStringOne.trim())
+
+const url ="https://vandita%20jain"
+
+console.log(url.replace("%20","-"))
+
+console.log(url.includes("hdhdk"))
+
+console.log(gameName.split("-"))
+
