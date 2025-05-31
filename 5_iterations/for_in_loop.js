@@ -1,4 +1,4 @@
-// for in loop
+// for in loop used for object mainly
  const myObj = {
     JS : "javascript",
     cpp : "c++",
